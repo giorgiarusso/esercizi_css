@@ -37,3 +37,7 @@ table > tbody > tr > td:nth-child(3
 ) {
     color:  #7f0000;
 }
+
+table > tfoot > tr > td {
+    background-color: #78909c;
+}
