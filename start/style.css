@@ -41,3 +41,12 @@ table > tbody > tr > td:nth-child(3
 table > tfoot > tr > td {
     background-color: #78909c;
 }
+
+
+table > tbody > tr > td:nth-child(2){
+    text-align: right;
+}
+
+table > tbody > tr > td:nth-child(3){
+    text-align: right;
+}
