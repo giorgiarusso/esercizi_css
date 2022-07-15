@@ -20,3 +20,10 @@ table > caption {
      ;
      color: white;
 }
+
+table > tbody > tr:nth-child(even) {
+    background: #eceff1;
+}
+table > tbody > tr:nth-child(odd) {
+    background: #b0bec5;
+}
