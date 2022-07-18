@@ -1,0 +1,48 @@
+article {
+    display: grid;
+    grid-template-columns: 20%;
+    grid-template-rows: 20%;
+    text-align: center;
+    
+}
+
+.primo_blocco{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: gray;
+    color: white;
+    padding-left: %;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+.secondo_blocco {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: left;
+
+}
+
+.terzo_blocco{
+    grid-column: 1;
+    grid-row: 3;
+    text-align: left;
+}
+
+.quarto_blocco{
+    grid-column: 1;
+    grid-row: 4;
+    text-align: left;
+}
+
+.quinto_blocco{
+    grid-column: 1;
+    grid-row: 5;
+    text-align: left;
+}
+
+.sesto_blocco{
+    grid-column: 1;
+    grid-row: 6;
+    text-align: left;
+}
