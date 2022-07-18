@@ -1,0 +1,135 @@
+body{
+    background-color: #fafbff;
+    margin: 0%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+	grid-template-rows: 1fr auto 1fr;
+    gap: 0px 0px;
+	grid-template-areas:
+        "nav nav"
+        "main aside"
+        "footer footer";
+	
+
+
+
+}
+
+nav{
+    grid-area: nav;
+    background-color: #234567;
+    height: 70px;
+    width: 100%;
+    
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+
+nav > ul > li {
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+a{
+    color: white;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff784d;
+}
+
+aside{
+    grid-area: aside;
+    color:#edefff;
+
+}
+
+aside > img {
+    max-height: 300px;
+    object-fit: contain;
+    grid-column: 3;
+    grid-row: 1;
+    
+}
+
+aside {
+    
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    
+}
+
+.img1 {
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.img2 {
+    max-height: 300px;
+    object-fit: contain;
+}
+
+main {
+    grid-area: main;
+}
+
+main > article {
+    display: grid
+    grid-template-columns:contents;
+    grid-template-rows: auto 1fr;
+	grid-template-areas:
+        "text text";
+        "img1 img2";
+   
+
+}
+
+article{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.text{
+    grid-area:text;
+}
+
+footer {
+    grid-area: footer;
+    display: flex;
+    background-color: #012345;
+    color: white;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.submit_botton {
+    background-color: #ff784d;
+    color: white;
+}
+
+.submit_botton:hover {
+    background-color: white;
+    color:#ff784d;
+}
+
+main,
+aside,
+footer {
+	padding: 8px 16px;
+}
+
+@media (max-width: 900px) {
+    aside{ 
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
