@@ -1,0 +1,48 @@
+body {
+    width: 30em;
+    margin: 0 auto;
+    display: flex;
+    
+    
+  }
+  
+  section {
+    padding: 2em;
+    margin:1em;
+    background-color: lightgray;
+    background: -webkit-linear-gradient(grey, lightgray); 
+    background: -o-linear-gradient(grey, lightgray); 
+    background: -moz-linear-gradient(grey, lightgray); 
+    background: linear-gradient(grey, lightgray);
+    border-radius: 50px
+}
+
+.name{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.date{
+    color: white;
+}
+
+.icona{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.assets{
+    width: 400px;
+    height: auto;
+   
+}
+
+.strumento{
+    width: 20px;
+}
+
+.strumento_due{
+    width: 5%;
+}
+
