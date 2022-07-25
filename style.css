@@ -1,8 +1,10 @@
 article {
     display: grid;
-    grid-template-columns: 20%;
-    grid-template-rows: 20%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     text-align: center;
+    border: 1px solid black;
+    width: 20%;
     
 }
 
@@ -11,7 +13,7 @@ article {
     grid-row: 1;
     background-color: gray;
     color: white;
-    padding-left: %;
+    padding-left: 5px;
     padding-bottom: 10%;
     text-align: center;
 }
@@ -20,6 +22,7 @@ article {
     grid-column: 1;
     grid-row: 2;
     text-align: left;
+    padding-left: 5px;
 
 }
 
@@ -27,22 +30,27 @@ article {
     grid-column: 1;
     grid-row: 3;
     text-align: left;
+    padding-left: 5px;
 }
 
 .quarto_blocco{
     grid-column: 1;
     grid-row: 4;
     text-align: left;
+    padding-left: 5px;
 }
 
 .quinto_blocco{
     grid-column: 1;
     grid-row: 5;
     text-align: left;
+    padding-left: 5px;
 }
 
 .sesto_blocco{
     grid-column: 1;
     grid-row: 6;
     text-align: left;
+    padding-left: 5px;
+    padding-bottom: 5px;
 }
