@@ -28,7 +28,10 @@
 }
 
 .search_container{
-    margin-left: 150px;
+   
+}
+.spazio{
+    width: 400px;
 }
 
 .header .menu .dropdown {
@@ -52,6 +55,10 @@
         height: 2px;
         position: relative;
         
+    }
+
+    .spazio{
+        width: 0px;
     }
 
     .header .menu-icon .nav-icon::before,
@@ -81,9 +88,9 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-content: center;
         flex-direction: column;
         align-items: flex-end;
+        margin: 0px 0px 0px 150px;
     }
      
 .header ul li{
