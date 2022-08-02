@@ -9,27 +9,37 @@
 </head>
 <body>
     <header class="header">
-        <p class="logo">Navbar</p>
-        <label for="menu-btn" class="menu-icon">
-            <span class="nav-icon"></span>
-        </label>
-        <ul class="menu">
-            <li><a class="home" href="#">Home</a></li>
-            <li><a class="link" href="#">Link</a></li>
-            <li><label class="label_dropdown" for="dropdown">Dropdown</label>
-                <select name="dropdown" class="dropdown">
-                    <option value="#"></option>
-                    <option value="#">Link1</option>
-                    <option value="#">Link2</option>
-                </select>
+        <div class="blocco1">
+            <div class="logoblocco">
+                <p class="logo">Navbar</p>
+            </div>
+            <div class="elenco">
+                <ul class="menu">
+                    <li><a class="home" href="#">Home</a></li>
+                    <li><a class="link" href="#">Link</a></li>
+                    <li><label class="label_dropdown" for="dropdown">Dropdown</label>
+                        <select name="dropdown" class="dropdown">
+                            <option value="#"></option>
+                            <option value="#">Link1</option>
+                            <option value="#">Link2</option>
+                        </select>
 
-            </li>
-            <div class="spazio"></div>
-            <li class="search_container">
-                <input type="search" class="search_field" placeholder="Search">
-                <button class="btn_search">Search</button>
-            </li>
-        </ul>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="blocco2">
+            <input type="search" class="search_field" placeholder="Search">
+            <button class="btn_search">Search</button>
+        </div>
+        <div class="hamburger">
+            <label for="menu-btn" class="menu-icon">
+                <span class="nav-icon"></span>
+            </label>
+        </div>
+        
+        
     </header>
 </body>
 </html>
